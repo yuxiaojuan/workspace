@@ -1,0 +1,9 @@
+package com.yusj.firstLearning.thread;
+
+public class MyRunnable implements Runnable{
+	
+	public void run() {
+		System.out.println("The name of current thread is:" + Thread.currentThread().getName());
+		
+	}
+}

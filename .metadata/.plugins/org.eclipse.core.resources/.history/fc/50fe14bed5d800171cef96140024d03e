@@ -1,0 +1,10 @@
+package com.yusj.firstLearning.threadpool;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class MyFixedThreadPool {
+
+	int taskSize = 5;
+	ExecutorService threadPool = Executors.newFixedThreadPool(taskSize);
+}

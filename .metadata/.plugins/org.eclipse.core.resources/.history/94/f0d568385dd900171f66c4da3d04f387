@@ -1,0 +1,30 @@
+package com.yusj.firstLearning.threadlocal;
+
+/**
+ * ThreadLocal测试
+ * @author yusj
+ *
+ */
+public class ThreadLocalDemo{
+
+	private final static ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>(); 
+	
+	public Integer initialValue() {
+		return 0;
+	}
+	
+	public static void main(String[] args) {
+		MyRunnable td = new MyRunnable();
+		Thread thread1 = new Thread(td);
+		Thread thread2 = new Thread(td);
+		thread1.start();
+		thread2.start();
+	}
+
+	public int getNextNum() {
+		threadLocal.set(threadLocal.get()+1);
+		return threadLocal.get();
+	}
+
+}
+

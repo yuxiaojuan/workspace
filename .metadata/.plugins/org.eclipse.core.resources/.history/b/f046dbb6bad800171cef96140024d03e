@@ -1,0 +1,5 @@
+package com.yusj.firstLearning.threadpool;
+
+public class MyFixedThreadPool {
+
+}

@@ -1,0 +1,5 @@
+package com.yusj.firstLearning.threadlocal;
+
+public class MyRunnable {
+
+}

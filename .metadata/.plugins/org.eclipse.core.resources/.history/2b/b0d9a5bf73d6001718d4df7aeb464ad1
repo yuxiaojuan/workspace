@@ -1,0 +1,16 @@
+package com.yusj.firstLearning.thread;
+
+public class ThreadApp {
+
+	public static void main(String[] args) {
+		MyRunnable t1 = new MyRunnable();
+		new Thread(t1,"Runnable线程1").start();
+		new Thread(t1,"Runnable线程2").start();
+		
+		MyThread t2 = new MyThread();
+		new Thread(t2,"Thread线程1").start();
+		new Thread(t2,"Thread线程2").start();
+		
+
+	}
+}
