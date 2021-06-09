@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.yusj.firstLearning.threadlocal.threadPool&apos; to &apos;ThreadPool&apos;&#x0D;&#x0A;- Original project: &apos;firstLearning&apos;&#x0D;&#x0A;- Original element: &apos;com.yusj.firstLearning.threadlocal.threadPool&apos;&#x0D;&#x0A;- Renamed element: &apos;com.yusj.firstLearning.threadlocal.ThreadPool&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;threadPool&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.yusj.firstLearning.threadlocal{threadPool.java[threadPool" matchStrategy="1" name="ThreadPool" qualified="false" references="true" similarDeclarations="false" stamp="1512451537545" textual="false" version="1.0"/>
-</session>

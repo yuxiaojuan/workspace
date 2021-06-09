@@ -1,5 +1,0 @@
-package com.yusj.firstLearning.thread;
-
-public class MyThread extends Thread{
-
-}

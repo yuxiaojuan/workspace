@@ -1,13 +1,6 @@
 package com.yusj.firstLearning;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
-
-import com.yusj.firstLearning.synchronize.AlertRule;
-import com.yusj.firstLearning.thread.MyRunnable;
+import com.yusj.firstLearning.basic.concurrency.thread.MyRunnable;
 
 /**
  * Hello world!
